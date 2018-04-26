@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.token.comment{
+    color: black;
+}
+.token.selector{
+    color: black;
+}
+.token.punctuation{
+    color: black;    
+}
+.token.property{
+    color: black;    
+}
+@keyframes breath {
+    from {box-shadow: 0px 0px 20px -12px rgba(0,0,0,0.75);}
+    to {box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.75);}
+}
+#code{
+    height: 100vh;
+    overflow: hidden;
+}
+.div1{
+    transform:perspective(500px) rotatey(0deg);
+    transform-style:preserve-3d;
+    position: relative;
+}
